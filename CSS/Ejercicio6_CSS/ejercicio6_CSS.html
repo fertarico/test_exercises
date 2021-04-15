@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi Página Web</title>
+    <link href="ejercicio6_CSS.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="contenedor">
+      <ul id="barra-navegacion">
+        <li id="logo"><img src="imagenes/logo.png" alt="Logo de la Web"></li>
+        <li><a href="#">link 1</a></li>
+        <li><a href="#">link 2</a></li>
+        <li><a href="#">link 3</a></li>
+        <li><a href="#">link 4</a>
+          <ul>
+            <li><a href="#">sub 1</a></li>
+            <li><a href="#">sub 2</a></li>
+            <li><a href="#">sub 3</a></li>
+            <li><a href="#">sub 4</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="sub-contenedor">
+        <h2>My pagina Web</h2>
+        <br>
+        <img src="imagenes/ballons.jpg" alt="Imagen de Globos" id="imagen-globos">
+
+        <table id="tabla-pagina" cellpadding="10">
+          <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2" id="columna-secundaria"></td>
+          </tr>
+          <tr>
+             <td colspan="2"></td>
+          </tr>
+          </table>
+      </div>
+      <div class="pie-pagina"></div>
+    </div>
+  </body>
+</html>

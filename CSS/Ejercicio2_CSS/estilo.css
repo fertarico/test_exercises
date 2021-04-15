@@ -1,0 +1,20 @@
+            #titulo {color: #15949a;}
+            p strong {color: #ff0000;}
+            .destacado {color: #ffba64;}
+            #subtitulo {color: #0000ff;}
+            a {color: red;}
+            a em {font-style: italic; color:#0000ff;}
+            p .especial{color:#c71585;}
+            caption {color: #0000ff;}
+            thead tr th {color: #ffa500;}
+            table {background-color: #000000;}
+            table tr {background-color: #ffffff;}
+            table td, table th {padding: 5px;}
+            table tfoot th {color: red;}
+            table tbody tr .especial {color: #ffa500;}
+            table tbody tr th {color: #ff0000;}
+            table tbody td {color: #008000;}
+            table tbody td strong {color: #ffa500;}
+            div {color: #c4ae52;}
+            div a {color: #008000;}
+            div #especial {color: #c71585;}
